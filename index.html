@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Editkaro.in | Premium Video Editing Agency</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<nav id="navbar">
+  <div class="container">
+    <div class="nav-inner">
+      <a class="logo" href="#hero">Edit<span>karo</span>.in</a>
+      <ul class="nav-links">
+        <li><a href="#portfolio">Work</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#process">Process</a></li>
+        <li><a href="#testimonials">Clients</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a class="nav-cta" href="#contact">Get a Quote</a>
+      <div class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </div>
+  <div class="mobile-menu" id="mobile-menu">
+    <a href="#portfolio"    onclick="closeMobile()">Work</a>
+    <a href="#services"     onclick="closeMobile()">Services</a>
+    <a href="#process"      onclick="closeMobile()">Process</a>
+    <a href="#testimonials" onclick="closeMobile()">Clients</a>
+    <a href="#contact"      onclick="closeMobile()">Contact</a>
+  </div>
+</nav>
+
+<section id="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-grid"></div>
+  <div class="container hero-content reveal">
+    <div class="hero-badge">Premium Video Editing Agency</div>
+    <h1 class="hero-title">
+      WE MAKE<br>
+      <span class="line2">RAW FOOTAGE</span><br>
+      <span class="line3">GO VIRAL.</span>
+    </h1>
+    <p class="hero-sub">Cinematic edits, electric energy, and high-retention storytelling for creators and brands that refuse to be ignored.</p>
+    <div class="hero-btns">
+      <a class="btn-primary" href="#contact">Start a Project &rarr;</a>
+      <a class="btn-outline" href="#portfolio">View Our Work</a>
+    </div>
+  </div>
+  <div class="hero-scroll">
+    <div class="scroll-line"></div>
+    <span>Scroll</span>
+  </div>
+</section>
+
+<section id="stats">
+  <div class="container">
+    <div class="stats-grid">
+      <div class="stat-item reveal">
+        <span class="stat-number" data-target="1200">0</span>
+        <span class="stat-label">Videos Delivered</span>
+      </div>
+      <div class="stat-item reveal" style="transition-delay:.1s">
+        <span class="stat-number" data-target="320">0</span>
+        <span class="stat-label">Happy Clients</span>
+      </div>
+      <div class="stat-item reveal" style="transition-delay:.2s">
+        <span class="stat-number" data-target="850">0</span>
+        <span class="stat-label">Million Views Generated</span>
+      </div>
+      <div class="stat-item reveal" style="transition-delay:.3s">
+        <span class="stat-number" data-target="5">0</span>
+        <span class="stat-label">Years of Experience</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="portfolio" class="section">
+  <div class="container">
+    <div class="reveal">
+      <span class="section-label">Our Work</span>
+      <h2 class="section-title">Built to <span class="accent">Stop the Scroll</span></h2>
+      <p class="section-sub">Browse our latest work across every content format.</p>
+    </div>
+    <div class="filter-bar">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="short-form">Short-Form Videos</button>
+      <button class="filter-btn" data-filter="long-form">Long-Form Videos</button>
+      <button class="filter-btn" data-filter="gaming">Gaming Videos</button>
+      <button class="filter-btn" data-filter="football">Football Edits</button>
+      <button class="filter-btn" data-filter="ecommerce">eCommerce Ads</button>
+      <button class="filter-btn" data-filter="documentary">Documentary Style</button>
+      <button class="filter-btn" data-filter="color-grading">Color Grading</button>
+      <button class="filter-btn" data-filter="anime">Anime Videos</button>
+      <button class="filter-btn" data-filter="ads">Ads</button>
+    </div>
+    <div class="portfolio-grid" id="portfolioGrid">
+
+      <div class="video-card" data-category="short-form" data-title="Viral Reel — Fashion Drop" data-videoid="5O0YDHiosD0">
+        <div class="video-thumb">
+          <div class="thumb-bg" style="background:linear-gradient(135deg,#1a0533,#3d0070,#7b00d4)">
+            <i class="fa-solid fa-mobile-screen" style="color:#bf5fff;font-size:3rem"></i>
+            <span class="thumb-label">Short-Form</span>
+          </div>
+          <div class="play-overlay"><div class="play-circle"><i class="fa-solid fa-play"></i></div></div>
+        </div>
+        <div class="card-body">
+          <div class="card-category">Short-Form Videos</div>
+          <div class="card-title">Viral Reel — Fashion Drop</div>
+          <div class="card-views"><i class="fa-solid fa-eye"></i> 4.2M views</div>
+        </div>
+      </div>
+
+      <div class="video-card" data-category="gaming" data-title="Clutch Moments — FPS Highlights" data-videoid="5O0YDHiosD0">
+        <div class="video-thumb">
+          <div class="thumb-bg" style="background:linear-gradient(135deg,#001a00,#004d00,#00b300)">
+            <i class="fa-solid fa-gamepad" style="color:#00ff41;font-size:3rem"></i>
+            <span class="thumb-label">Gaming</span>
+          </div>
+          <div class="play-overlay"><div class="play-circle"><i class="fa-solid fa-play"></i></div></div>
+        </div>
+        <div class="card-body">
+          <div class="card-category">Gaming Videos</div>
+          <div class="card-title">Clutch Moments — FPS Highlights</div>
+          <div class="card-views"><i class="fa-solid fa-eye"></i> 8.7M views</div>
+        </div>
+      </div>
+
+      <div class="video-card" data-category="football" data-title="El Clasico — Cinematic Recap" data-videoid="5O0YDHiosD0">
+        <div class="video-thumb">
+          <div class="thumb-bg" style="background:linear-gradient(135deg,#0a0a1a,#00204d,#0050b3)">
+            <i class="fa-solid fa-futbol" style="color:#4d9fff;font-size:3rem"></i>
+            <span class="thumb-label">Football</span>
+          </div>
+          <div class="play-overlay"><div class="play-circle"><i class="fa-solid fa-play"></i></div></div>
+        </div>
+        <div class="card-body">
+          <div class="card-category">Football Edits</div>
+          <div class="card-title">El Clasico — Cinematic Recap</div>
+          <div class="card-views"><i class="fa-solid fa-eye"></i> 11.3M views</div>
+        </div>
+      </div>
+
+      <div class="video-card" data-category="ecommerce" data-title="Product Launch Ad — Skincare" data-videoid="5O0YDHiosD0">
+        <div class="video-thumb">
+          <div class="thumb-bg" style="background:linear-gradient(135deg,#1a0a00,#4d2200,#cc6600)">
+            <i class="fa-solid fa-bag-shopping" style="color:#ffaa33;font-size:3rem"></i>
+            <span class="thumb-label">eCommerce</span>
+          </div>
+          <div class="play-overlay"><div class="play-circle"><i class="fa-solid fa-play"></i></div></div>
+        </div>
+        <div class="card-body">
+          <div class="card-category">eCommerce Ads</div>
+          <div class="card-title">Product Launch Ad — Skincare</div>
+          <div class="card-views"><i class="fa-solid fa-eye"></i> 2.9M views</div>
+        </div>
+      </div>
+
+      <div class="video-card" data-category="documentary" data-title="Rise of a Creator — Mini Doc" data-videoid="5O0YDHiosD0">
+        <div class="video-thumb">
+          <div class="thumb-bg" style="background:linear-gradient(135deg,#0f0f0f,#2a2a2a,#555)">
+            <i class="fa-solid fa-film" style="color:#aaa;font-size:3rem"></i>
+            <span class="thumb-label">Documentary</span>
+          </div>
+          <div class="play-overlay"><div class="play-circle"><i class="fa-solid fa-play"></i></div></div>
+        </div>
+        <div class="card-body">
+          <div class="card-category">Documentary Style</div>
+          <div class="card-title">Rise of a Creator — Mini Doc</div>
+          <div class="card-views"><i class="fa-solid fa-eye"></i> 1.6M views</div>
+        </div>
+      </div>
+
+      <div class="video-card" data-category="color-grading" data-title="Golden Hour — Cinematic Grade" data-videoid="5O0YDHiosD0">
+        <div class="video-thumb">
+          <div class="thumb-bg" style="background:linear-gradient(135deg,#1a0800,#7a3300,#ff9900)">
+            <i class="fa-solid fa-palette" style="color:#ffcc44;font-size:3rem"></i>
+            <span class="thumb-label">Color Grading</span>
+          </div>
+          <div class="play-overlay"><div class="play-circle"><i class="fa-solid fa-play"></i></div></div>
+        </div>
+        <div class="card-body">
+          <div class="card-category">Color Grading</div>
+          <div class="card-title">Golden Hour — Cinematic Grade</div>
+          <div class="card-views"><i class="fa-solid fa-eye"></i> 3.1M views</div>
+        </div>
+      </div>
+
+      <div class="video-card" data-category="anime" data-title="AMV — Demon Slayer Edit" data-videoid="5O0YDHiosD0">
+        <div class="video-thumb">
+          <div class="thumb-bg" style="background:linear-gradient(135deg,#1a001a,#4d004d,#cc00cc)">
+            <i class="fa-solid fa-wand-magic-sparkles" style="color:#ff55ff;font-size:3rem"></i>
+            <span class="thumb-label">Anime</span>
+          </div>
+          <div class="play-overlay"><div class="play-circle"><i class="fa-solid fa-play"></i></div></div>
+        </div>
+        <div class="card-body">
+          <div class="card-category">Anime Videos</div>
+          <div class="card-title">AMV — Demon Slayer Edit</div>
+          <div class="card-views"><i class="fa-solid fa-eye"></i> 6.5M views</div>
+        </div>
+      </div>
+
+      <div class="video-card" data-category="ads" data-title="Brand Commercial — Tech Startup" data-videoid="5O0YDHiosD0">
+        <div class="video-thumb">
+          <div class="thumb-bg" style="background:linear-gradient(135deg,#001133,#003380,#0066ff)">
+            <i class="fa-solid fa-bullhorn" style="color:#44aaff;font-size:3rem"></i>
+            <span class="thumb-label">Ads</span>
+          </div>
+          <div class="play-overlay"><div class="play-circle"><i class="fa-solid fa-play"></i></div></div>
+        </div>
+        <div class="card-body">
+          <div class="card-category">Ads</div>
+          <div class="card-title">Brand Commercial — Tech Startup</div>
+          <div class="card-views"><i class="fa-solid fa-eye"></i> 5.0M views</div>
+        </div>
+      </div>
+
+      <div class="video-card" data-category="long-form" data-title="Full Podcast Edit — 2Hr Episode" data-videoid="5O0YDHiosD0">
+        <div class="video-thumb">
+          <div class="thumb-bg" style="background:linear-gradient(135deg,#0d001a,#2b004d,#5900a3)">
+            <i class="fa-solid fa-clapperboard" style="color:#9966ff;font-size:3rem"></i>
+            <span class="thumb-label">Long-Form</span>
+          </div>
+          <div class="play-overlay"><div class="play-circle"><i class="fa-solid fa-play"></i></div></div>
+        </div>
+        <div class="card-body">
+          <div class="card-category">Long-Form Videos</div>
+          <div class="card-title">Full Podcast Edit — 2Hr Episode</div>
+          <div class="card-views"><i class="fa-solid fa-eye"></i> 780K views</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="services" class="section">
+  <div class="container">
+    <div class="reveal" style="text-align:center">
+      <span class="section-label">What We Do</span>
+      <h2 class="section-title">Full-Stack <span class="accent">Creative Services</span></h2>
+      <p class="section-sub" style="margin:0 auto">From raw footage to viral content — we handle every frame.</p>
+    </div>
+    <div class="services-grid">
+      <div class="service-card reveal">
+        <div class="service-icon"><i class="fa-solid fa-scissors"></i></div>
+        <div class="service-name">Video Editing</div>
+        <div class="service-desc">Precision cuts, seamless transitions, and pacing that keeps viewers hooked.</div>
+      </div>
+      <div class="service-card reveal" style="transition-delay:.1s">
+        <div class="service-icon"><i class="fa-solid fa-droplet"></i></div>
+        <div class="service-name">Color Grading</div>
+        <div class="service-desc">Cinematic color science that makes your footage look like Hollywood.</div>
+      </div>
+      <div class="service-card reveal" style="transition-delay:.2s">
+        <div class="service-icon"><i class="fa-solid fa-layer-group"></i></div>
+        <div class="service-name">Motion Graphics</div>
+        <div class="service-desc">Dynamic titles, lower thirds, and animated elements for your brand.</div>
+      </div>
+      <div class="service-card reveal" style="transition-delay:.3s">
+        <div class="service-icon"><i class="fa-brands fa-instagram"></i></div>
+        <div class="service-name">Social Media Content</div>
+        <div class="service-desc">Reels, Shorts, TikToks — optimized for each platform's algorithm.</div>
+      </div>
+      <div class="service-card reveal" style="transition-delay:.4s">
+        <div class="service-icon"><i class="fa-solid fa-image"></i></div>
+        <div class="service-name">Thumbnail Design</div>
+        <div class="service-desc">Click-worthy thumbnails using proven CTR psychology.</div>
+      </div>
+      <div class="service-card reveal" style="transition-delay:.5s">
+        <div class="service-icon"><i class="fa-brands fa-youtube"></i></div>
+        <div class="service-name">YouTube SEO</div>
+        <div class="service-desc">Titles, tags, and chapters that drive organic search traffic.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="process" class="section">
+  <div class="container">
+    <div class="reveal" style="text-align:center">
+      <span class="section-label">How We Work</span>
+      <h2 class="section-title">From Brief to <span class="accent">Delivered</span></h2>
+    </div>
+    <div class="process-steps">
+      <div class="process-step reveal">
+        <div class="step-num">01</div>
+        <div class="step-title">Brief</div>
+        <div class="step-desc">Share your vision and goals. We absorb every detail.</div>
+      </div>
+      <div class="process-step reveal" style="transition-delay:.15s">
+        <div class="step-num">02</div>
+        <div class="step-title">Edit</div>
+        <div class="step-desc">Our editors craft your content with precision.</div>
+      </div>
+      <div class="process-step reveal" style="transition-delay:.3s">
+        <div class="step-num">03</div>
+        <div class="step-title">Review</div>
+        <div class="step-desc">Watch the draft and give feedback. We revise.</div>
+      </div>
+      <div class="process-step reveal" style="transition-delay:.45s">
+        <div class="step-num">04</div>
+        <div class="step-title">Deliver</div>
+        <div class="step-desc">Final files exported, ready to publish.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="testimonials" class="section">
+  <div class="container">
+    <div class="reveal">
+      <span class="section-label">Client Love</span>
+      <h2 class="section-title">What Our <span class="accent">Clients Say</span></h2>
+    </div>
+    <div class="testimonials-grid">
+      <div class="testimonial-card reveal">
+        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p class="testimonial-text">"Editkaro.in transformed our YouTube channel. Watch time went up 340% in two months."</p>
+        <div class="testimonial-author">
+          <div class="author-avatar" style="background:#00e5ff">RK</div>
+          <div>
+            <div class="author-name">Rahul Khanna</div>
+            <div class="author-role">Gaming YouTuber — 2.1M subscribers</div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-card reveal" style="transition-delay:.1s">
+        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p class="testimonial-text">"Our ROAS went from 1.8x to 6.2x after the new creative. Incredible results."</p>
+        <div class="testimonial-author">
+          <div class="author-avatar" style="background:#ff9900">PS</div>
+          <div>
+            <div class="author-name">Priya Singh</div>
+            <div class="author-role">Founder, LuxeGlow Skincare</div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-card reveal" style="transition-delay:.2s">
+        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p class="testimonial-text">"The football edits are insane. Transitions, music sync, colour — all perfect."</p>
+        <div class="testimonial-author">
+          <div class="author-avatar" style="background:#cc00cc">AM</div>
+          <div>
+            <div class="author-name">Arjun Mehta</div>
+            <div class="author-role">Football Creator — 850K subs</div>
+          </div>
+        </div>
+      </div>
+      <div class="testimonial-card reveal" style="transition-delay:.3s">
+        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p class="testimonial-text">"Fast turnaround, never drops quality. Looks like a full studio team made it."</p>
+        <div class="testimonial-author">
+          <div class="author-avatar" style="background:#0066ff">NV</div>
+          <div>
+            <div class="author-name">Nisha Verma</div>
+            <div class="author-role">Social Media Manager, TechFlow India</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="section">
+  <div class="container">
+    <div class="reveal">
+      <span class="section-label">Get in Touch</span>
+      <h2 class="section-title">Ready to Make Your<br>Content <span class="accent">Unforgettable?</span></h2>
+      <div style="text-align:center">
+        <a class="contact-email" href="mailto:editkaro.in@gmail.com">
+          <i class="fa-solid fa-envelope"></i> editkaro.in@gmail.com
+        </a>
+      </div>
+      <div class="social-links">
+        <a class="social-link" href="https://instagram.com/editkaro.in" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a class="social-link" href="https://youtube.com/@editkaroin"   target="_blank"><i class="fa-brands fa-youtube"></i></a>
+        <a class="social-link" href="https://wa.me/919999999999"         target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+        <a class="social-link" href="https://twitter.com/editkaroin"    target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="container">
+    <div class="footer-inner">
+      <a class="logo" href="#hero">Edit<span>karo</span>.in</a>
+      <span class="footer-copy">&copy; 2024 Editkaro.in &mdash; All rights reserved.</span>
+    </div>
+  </div>
+</footer>
+
+<div class="modal-overlay" id="modalOverlay">
+  <div class="modal-box">
+    <div class="modal-header">
+      <span class="modal-title" id="modalTitle"></span>
+      <button class="modal-close" id="modalClose"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+    <div class="modal-video">
+      <iframe id="modalIframe" allowfullscreen allow="autoplay; encrypted-media"></iframe>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
